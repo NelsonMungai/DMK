@@ -34,7 +34,8 @@ a{
     background: #f5f8ff;
     left:0;
     top:0;
-    padding:0 5rem;
+    padding:0 .5rem;
+    padding-right:3rem;
     width:100%;
     display: flex;
     align-items: center;
@@ -44,7 +45,7 @@ a{
     border-radius: 15px 15px 0 0;
 }
 .logo img{
-    width: 200px;;
+    width: 150px;;
     object-fit: cover;
     height:80px;
     margin-top:20px;
@@ -128,8 +129,8 @@ a{
     position: absolute;
     left:50%;
     transform:translateX(-50%)scale(0);
-    width:5rem;
-    height: .2rem;
+    width:50px;
+    height:2px;
     background: #000;
     bottom: 0;
     transition:.3s ease transform;
@@ -140,7 +141,7 @@ a{
 }
 .nav-bar .nav-list ul li a{
     color: #000;
-    font-size:1.4rem;
+    font-size:16px;
     text-transform: uppercase;
     display: block;
     letter-spacing: .15rem;
@@ -156,7 +157,7 @@ a{
 /* hero section */ 
 #hero{
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../IMG/hero.jpg');
-    height:100vh;
+    min-height:100vh;
     background-position:center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -175,16 +176,16 @@ a{
     justify-content: center;
 }
 .hero-text .hero-h1{
-    font-size: 8rem;
+    font-size: 4rem;
     color: #bd021e;
     font-weight:700;
 }
 .hero-text .hero-h3{
-    font-size: 3em;
+    font-size:2em;
 }
 .hero-text p{
     margin-top:20px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .hero-text button{
     border:1px dashed #fff;
