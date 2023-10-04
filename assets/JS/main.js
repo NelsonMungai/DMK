@@ -1,5 +1,5 @@
-const hamburger_icon=document.querySelector('#nav-bar .header .nav-list .hamburger')
-const nav_list=document.querySelector('#nav-bar .header .nav-list')
+const hamburger_icon=document.querySelector('#nav-bar .nav-bar .nav-list .hamburger')
+const nav_list=document.querySelector('#nav-bar .nav-bar .nav-list')
 
 hamburger_icon.addEventListener('click',()=>{
     hamburger_icon.classList.toggle('active')
