@@ -9,6 +9,24 @@
 html{
     scroll-behavior: smooth;
 }
+.to-top{
+    background: #fff;
+    position: fixed;
+    bottom: 16px;
+    right:32px;
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    color:#000;
+    opacity:1;
+    pointer-events: none;
+    transition:  all .4s;
+}
+
 /* 
 reused styles */
 li{
@@ -813,3 +831,5 @@ width:100%;
     }
 }
  /* MEDIA QUERIES END */
+
+ /* back to top */

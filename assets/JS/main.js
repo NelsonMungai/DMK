@@ -333,19 +333,6 @@ window.onload=()=>{
     filterProduct('all')
 }
 
-// // LOAD MORE BUTTON
-
-// let loadmore=document.querySelector('#load-more button')
-// let currentItem=3
-// loadmore.onclick=()=>{
-//     let boxes=[...document.querySelectorAll('#products .card')]
-//     for(let i=currentItem;i<currentItem+3;i++){
-//         boxes[i].style.display='inline-block'
-//         console.log(boxes)
-//     }
-//     currentItem+=3
-//     if(currentItem>=boxes.length){
-//         loadmore.style.display='none';
-//     }
-// }
-
+function scrollTop(){
+    window.scrollTo(0,0);
+}
