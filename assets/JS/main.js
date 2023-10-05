@@ -6,6 +6,22 @@ hamburger_icon.addEventListener('click',()=>{
     nav_list.classList.toggle('open')
 })
 
+const goTop=document.getElementById('go-top-btn')
+window.addEventListener('scroll',checkHeight)
+
+function checkHeight(){
+    if(window.scrollY>200){
+        goTop.style.display='flex'
+    }else{
+        goTop.style.display='none'
+    }
+}
+goTop.addEventListener('click',()=>{
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    })
+})
 let products={
     data:[
         // hoddies
@@ -336,3 +352,4 @@ window.onload=()=>{
 function scrollTop(){
     window.scrollTo(0,0);
 }
+
