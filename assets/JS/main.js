@@ -1,3 +1,10 @@
+const navmenu=document.querySelectorAll('#nav-bar .nav-bar .nav-list ul li')
+navmenu.forEach(element=>{
+    element.addEventListener('click',()=>{
+        element.classList.add('active2')
+    })
+})
+
 const hamburger_icon=document.querySelector('#nav-bar .nav-bar .nav-list .hamburger')
 const nav_list=document.querySelector('#nav-bar .nav-bar .nav-list')
 
@@ -24,197 +31,229 @@ goTop.addEventListener('click',()=>{
 })
 let products={
     data:[
-        // hoddies
+        // Cultural
         {
-            productName:'Black and white sleeeved Hoddy.webp',
-            category:"Hoddies",
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"OuterWear",
             price:'30',
-            image:'USEIMG/Hoddies/Black and white sleeeved Hoddy.webp'
+            image:'/USEIMG/OuterWear/Hoddy Design1.jpg'
         },
         {
-            productName:'Black sleeved Hoddy.webp',
-            category:"Hoddies",
+            productName:'culture',
+            category:"Cultural",
             price:'30',
-            image:'USEIMG/Hoddies/Black sleeved Hoddy.webp'
+            image:'/USEIMG/Cultural Wear/african1.jpg'
+        },
+        {
+            productName:'Colorful',
+            category:"Cultural",
+            price:'30',
+            image:'/USEIMG/Cultural Wear/African2 .webp'
         },
         {
             productName:'Regular Red Hoddy.webp',
-            category:"Hoddies",
+            category:"Cultural",
             price:'30',
-            image:'USEIMG/Hoddies/Regular Red Hoddy.webp'
+            image:'USEIMG/Cultural Wear/African2.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Designer Bags.jpg'
         },
 
         {
             productName:'Regular Grey Hoddy',
-            category:"Hoddies",
+            category:"Cultural",
             price:'30',
-            image:'USEIMG/Hoddies/Regular Grey Hoddy.webp'
+            image:'USEIMG/Cultural Wear/African3.jpg'
         },
         {
             productName:'Black sleeved Hoddy.webp',
-            category:"Hoddies",
+            category:"Cultural",
             price:'30',
-            image:'USEIMG/Hoddies/HOODY.webp'
+            image:'USEIMG/Cultural Wear/African4.jpeg'
         },
         {
             productName:'Regular Red Hoddy.webp',
-            category:"Hoddies",
+            category:"Cultural",
             price:'30',
-            image:'USEIMG/Hoddies/Hoddyy4.webp'
+            image:'USEIMG/Cultural Wear/African5.webp'
+        },
+        // Formal
+        {
+            productName:'Regular Grey Hoddy',
+            category:"Formal",
+            price:'30',
+            image:'/USEIMG/Formal Wear/suit4.jpg'
+        },
+        {
+            productName:'Black sleeved Hoddy.webp',
+            category:"Formal",
+            price:'30',
+            image:'/USEIMG/Formal Wear/suit2.jpg'
+        },
+        {
+            productName:'Regular Red Hoddy.webp',
+            category:"Formal",
+            price:'30',
+            image:'/USEIMG/Formal Wear/officewear1.webp'
         },
         {
             productName:'Regular Grey Hoddy',
-            category:"Hoddies",
+            category:"Formal",
             price:'30',
-            image:'USEIMG/Hoddies/Hoddyy3.webp'
+            image:'/USEIMG/Formal Wear/office wear3.jpg'
         },
         {
             productName:'Black sleeved Hoddy.webp',
-            category:"Hoddies",
+            category:"Formal",
             price:'30',
-            image:'USEIMG/Hoddies/Hoddyy2.webp'
+            image:'/USEIMG/Formal Wear/suit5.jpg'
         },
         {
             productName:'Regular Red Hoddy.webp',
-            category:"Hoddies",
+            category:"Formal",
             price:'30',
-            image:'USEIMG/Hoddies/Hoddy8.webp'
+            image:'/USEIMG/Formal Wear/suit7.jpg'
         },
         // caps
         {
             productName:'USEIMG/Caps/Branded Caps1.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps1.webp'
+            image:'/USEIMG/HeadWear/Branded cap1.jpg'
         },
         {
             productName:'USEIMG/Caps/Branded Caps1.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps2.webp'
+            image:'/USEIMG/HeadWear/Branded Caps1.webp'
         },
         {
             productName:'USEIMG/Caps/Branded Caps8.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps3..webp'
+            image:'/USEIMG/HeadWear/Branded Caps2.webp'
         },
         {
             productName:'USEIMG/Caps/Branded Caps8.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps4.webp.webp'
+            image:'/USEIMG/HeadWear/Branded Caps3..webp'
         },
         {
             productName:'USEIMG/Caps/Branded Caps8.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps5..webp'
+            image:'/USEIMG/HeadWear/Branded Caps4.webp.webp'
         },
         {
             productName:'USEIMG/Caps/Branded Caps8.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps6.webp'
+            image:'/USEIMG/HeadWear/Branded Security Hat.jpg'
         },
         {
             productName:'USEIMG/Caps/Branded Caps7.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps7.webp'
+            image:'/USEIMG/HeadWear/Chef Hat.jpg'
         },
         {
             productName:'USEIMG/Caps/Branded Caps8.webp',
-            category:"Caps",
+            category:"HeadWear",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps8.webp'
+            image:'/USEIMG/HeadWear/chefhat1.jpg'
         },
+        // shirts
         {
             productName:'USEIMG/Caps/Branded Caps7.webp',
-            category:"Caps",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Caps/Branded Caps7.webp'
-        },
-        // apollo
-        {
-            productName:'USEIMG/Apollo/Women Apollo1.webp',
-            category:"Apollo",
-            price:'30',
-            image:'USEIMG/Apollo/apollo.webp'
-        },
-        {
-            productName:'USEIMG/Apollo/ApolloBrandeT.webp',
-            category:"Apollo",
-            price:'30',
-            image:'USEIMG/Apollo/Apollo1.jpg'
-        },
-        {
-            productName:'USEIMG/Apollo/Women Apollo5.webp',
-            category:"Apollo",
-            price:'30',
-            image:'USEIMG/Apollo/Apollo1.webp'
+            image:'/USEIMG/Shirts/Corpoarte Shirts.jpg'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo1.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Women Apollo1.webp'
+            image:'/USEIMG/Shirts/Dress-Shirt-PNG.png'
         },
         {
             productName:'USEIMG/Apollo/ApolloBrandeT.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Wo.webp'
+            image:'/USEIMG/Shirts/Tailored Office Shirts.png'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo5.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Women Apollo5.webp'
+            image:'/USEIMG/Shirts/Corporate Shirts3.jpg'
+        },
+        {
+            productName:'USEIMG/Apollo/Women Apollo1.webp',
+            category:"Shirts",
+            price:'30',
+            image:'/USEIMG/Shirts/Corporate Shirts.jpg'
+        },
+        // Apollo
+        {
+            productName:'USEIMG/Apollo/ApolloBrandeT.webp',
+            category:"Shirts",
+            price:'30',
+            image:'/USEIMG/Shirts/Wo.webp'
+        },
+        {
+            productName:'USEIMG/Apollo/Women Apollo5.webp',
+            category:"Shirts",
+            price:'30',
+            image:'/USEIMG/Shirts/Apollo5.webp'
         },
 
         {
             productName:'USEIMG/Apollo/Women Apollo5.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Apollo4.webp'
+            image:'/USEIMG/Shirts/Apollo4.webp'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo1.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Apollo5.webp'
+            image:'/USEIMG/Shirts/Apollo5.webp'
         },
         {
             productName:'USEIMG/Apollo/ApolloBrandeT.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Women Apollo4.webp'
+            image:'/USEIMG/Shirts/Women Apollo4.webp'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo5.webp',
-            category:"Apollo",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/Apollo/Women Apollo2.webp'
+            image:'/USEIMG/Shirts/Women Apollo2.webp'
         },
-        // T-shirt
         {
             productName:'USEIMG/T-shirts/Branded T1.webp',
-            category:"T-shirts",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/T-shirts/Branded T1.webp'
+            image:'/USEIMG/Shirts/Apollo6.webp'
         },
         {
             productName:'USEIMG/T-shirts/Branded T2.webp',
-            category:"T-shirts",
+            category:"Shirts",
             price:'30',
-            image:'USEIMG/T-shirts/Branded T2.webp'
+            image:'/USEIMG/Shirts/IMG-20231005-WA0043.jpg'
         },
+        // T-shirts
         {
             productName:'USEIMG/T-shirts/sixpacks.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/Branded T3.webp'
+            image:'/USEIMG/T-shirts/Branded T-shirts1.jpg'
         },
 
         {
@@ -254,19 +293,147 @@ let products={
             price:'30',
             image:'USEIMG/T-shirts/sixpacks.webp'
         },
-        // Shirt
+        {
+            productName:'USEIMG/T-shirts/sixpacks.webp',
+            category:"T-shirts",
+            price:'30',
+            image:'/USEIMG/T-shirts/front_design_idea.webp'
+        },
+        // SportsWear
         {
             productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
-            category:"Shirts",
+            category:"SportsWear",
             price:'30',
-            image:'USEIMG/Shirts/Dress-Shirt-PNG.png'
+            image:'/USEIMG/SportsWear/track suit2.jpg'
         },
         {
             productName:'USEIMG/Shirts/Tailored Office Shirts.png',
-            category:"Shirts",
+            category:"SportsWear",
             price:'30',
-            image:'USEIMG/Shirts/Tailored Office Shirts.png'
-        }
+            image:'/USEIMG/SportsWear/track suit3.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"SportsWear",
+            price:'30',
+            image:'/USEIMG/SportsWear/track suit4.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"SportsWear",
+            price:'30',
+            image:'/USEIMG/SportsWear/Track Suits.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"SportsWear",
+            price:'30',
+            image:'/USEIMG/SportsWear/track suits1.webp'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"SportsWear",
+            price:'30',
+            image:'/USEIMG/SportsWear/track suits5.webp'
+        },
+        // OuterWear
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Aprons.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Sleeveless.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Branded Black Hoddy.webp'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Dust Coats.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Reflectors.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Overalls.2jpg.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Branded Bags.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"OuterWear",
+            price:'30',
+            image:'/USEIMG/OuterWear/Custom Bags.jpg'
+        },
+        // uniforms
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/Chef uniform 1.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/CHef5.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/Choir gown1.webp'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/Security Image1.webp'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/Security Image2.webp'
+        },
+        {
+            productName:'USEIMG/Shirts/Tailored Office Shirts.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/Security Image3.webp'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/Waiters.jpg'
+        },
+        {
+            productName:'USEIMG/Shirts/Dress-Shirt-PNG.png',
+            category:"uniforms",
+            price:'30',
+            image:'/USEIMG/Uniforms/waiters.6.jpg'
+        },
 
     ]
 };
@@ -300,7 +467,7 @@ for (let i of products.data){
 
     container.appendChild(name)
 
-    card.appendChild(container)
+    // card.appendChild(container)
     // price
 
     let price=document.createElement('h5')

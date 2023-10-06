@@ -27,24 +27,6 @@ html{
 #go-top-btn i{
     font-size: 1.6rem;
 }
-.to-top{
-    background: #fff;
-    position: fixed;
-    bottom: 16px;
-    right:32px;
-    width:50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.4rem;
-    color:#000;
-    opacity:1;
-    pointer-events: none;
-    transition:  all .4s;
-}
-
 /* 
 reused styles */
 li{
@@ -160,6 +142,11 @@ a{
     position: relative;
     padding:.5rem .5rem;
 }
+.active2{
+    border-bottom: 2px solid #000;
+    border-width:2px
+}
+
 .nav-bar .nav-list ul li::after{
     content: "";
     position: absolute;
@@ -537,13 +524,13 @@ body{
 }
 .button-value{
     border:1px solid #bd021e;
-    padding:1rem 2rem; 
+    padding:.5rem 1.5rem; 
     border-radius: 3em;
     background-color: transparent;
     color:#bd021e;
     text-transform: uppercase;
     display:inline-block;
-    margin:10px;
+    margin:5px;
     cursor: pointer;
 
 }
@@ -564,20 +551,28 @@ body{
     min-width:250px;
     width:100%;
     margin-top:1em;
-    padding:1em;
+    /* padding:1em; */
     border-radius: 5px;
     box-shadow: 1em 2em 2.5em rgba(1,2,68,0,08);
 }
 
 .image-container{
     text-align: center;
+    height:250px;
+    width: 100%;
 }
 img{
     width:100%;
-    height:200px;
+    height:250px;
     object-fit:contain;
-
+    /* border: 1px solid red;; */
+     border-radius: 5px;
 }
+/* #products .card .image-container img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+} */
 .container{
     padding-top:20px;
     color:#110f29;
