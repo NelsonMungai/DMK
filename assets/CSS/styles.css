@@ -144,7 +144,6 @@ a{
 }
 .active2{
     border-bottom: 2px solid #000;
-    border-width:2px
 }
 
 .nav-bar .nav-list ul li::after{
@@ -179,7 +178,7 @@ a{
 
 /* hero section */ 
 #hero{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../IMG/hero.jpg');
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../IMG/repairs.jpg');
     min-height:100vh;
     background-position:center;
     background-repeat: no-repeat;
