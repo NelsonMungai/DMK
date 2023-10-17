@@ -46,6 +46,7 @@ a{
     position: fixed;
     z-index: 100;
     padding:5px 0;
+    box-shadow: 0px 8px 8px -6px rgba(0,0,0,0.3);
 }
 #nav-bar .nav-bar{
     padding-bottom: 1rem;
@@ -179,7 +180,7 @@ a{
 
 /* hero section */ 
 #hero{
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../IMG/repairs.jpg');
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../IMG/Hero/dimik5.jpg');
     min-height:100vh;
     background-position:center;
     background-repeat: no-repeat;
@@ -217,7 +218,7 @@ padding:15px 30px;
 border-top-right-radius:15px;
 border-bottom-left-radius: 15px;
 background-color: transparent;
-transition: .5s ease;
+transition: .5s ease all;
 }
 .hero-text button a{
     color:white;
@@ -227,12 +228,11 @@ transition: .5s ease;
 }
 .hero-text button a{
 }
-.hero-text button a:hover{
-    color:#bd021e;
+/* .hero-text button a:hover{
     font-size: 1.4rem;
-}
+} */
 .hero-text button:hover{
-    background: black;
+    background:#bd021ee0;
 }
 
 
@@ -614,13 +614,17 @@ body{
     background: url(../IMG/contact\ background.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: con;
     padding:8rem 0;
     text-align: center;
     color: white;
 }
+.service-hero .gallery-intro{
+    background:url(../IMG/Hero/dimik4.jpg);
+    background-position: center;
+}
 .contact-hero .gallery-intro{
-    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../IMG/repairs.jpg);
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../IMG/Hero/dimik6.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
