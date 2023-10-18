@@ -180,7 +180,7 @@ a{
 
 /* hero section */ 
 #hero{
-    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('../IMG/Hero/dimik5.jpg');
+    background:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('../IMG/Hero/dimikBG.jpg');
     min-height:100vh;
     background-position:center;
     background-repeat: no-repeat;

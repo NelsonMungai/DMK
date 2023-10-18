@@ -203,50 +203,50 @@ let products={
             productName:'USEIMG/Apollo/ApolloBrandeT.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Wo.webp'
+            image:'/USEIMG/Shirts/Women Apollo5.webp'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo5.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Apollo5.webp'
+            image:'/USEIMG/Shirts/dimikpollo1.jpeg'
         },
 
         {
             productName:'USEIMG/Apollo/Women Apollo5.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Apollo4.webp'
+            image:'/USEIMG/Shirts/Wo.webp'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo1.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Apollo5.webp'
+            image:'/USEIMG/Shirts/PolloShirt45jpeg.jpg'
         },
         {
             productName:'USEIMG/Apollo/ApolloBrandeT.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Women Apollo4.webp'
+            image:'/USEIMG/Shirts/PolloShirt4.jpeg'
         },
         {
             productName:'USEIMG/Apollo/Women Apollo5.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Women Apollo2.webp'
+            image:'/USEIMG/Shirts/PolloShirt3.jpeg'
         },
         {
             productName:'USEIMG/T-shirts/Branded T1.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/Apollo6.webp'
+            image:'/USEIMG/Shirts/PolloShirt2.jpeg'
         },
         {
             productName:'USEIMG/T-shirts/Branded T2.webp',
             category:"Shirts",
             price:'30',
-            image:'/USEIMG/Shirts/IMG-20231005-WA0043.jpg'
+            image:'/USEIMG/Shirts/PolloShirt1.jpeg'
         },
         // T-shirts
         {
@@ -260,44 +260,44 @@ let products={
             productName:'USEIMG/T-shirts/Branded T1.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/Branded T4.webp'
+            image:'/USEIMG/T-shirts/dimikT1.webp'
         },
         {
             productName:'USEIMG/T-shirts/Branded T2.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/Branded T5.webp'
+            image:'/USEIMG/T-shirts/dimikT2.webp'
         },
         {
             productName:'USEIMG/T-shirts/sixpacks.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/brandedT1.webp'
+            image:'/USEIMG/T-shirts/dimikT3.webp'
         },
 
         {
             productName:'USEIMG/T-shirts/Branded T1.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/brandedT2.webp'
+            image:'/USEIMG/T-shirts/dimikT4.webp'
         },
         {
             productName:'USEIMG/T-shirts/Branded T2.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/front_design_idea (1).webp'
+            image:'/USEIMG/T-shirts/dimikT5.webp'
         },
         {
             productName:'USEIMG/T-shirts/sixpacks.webp',
             category:"T-shirts",
             price:'30',
-            image:'USEIMG/T-shirts/sixpacks.webp'
+            image:'/USEIMG/T-shirts/dimikT6.webp'
         },
         {
             productName:'USEIMG/T-shirts/sixpacks.webp',
             category:"T-shirts",
             price:'30',
-            image:'/USEIMG/T-shirts/front_design_idea.webp'
+            image:'/USEIMG/T-shirts/dimikT8.jpg'
         },
         // SportsWear
         {
